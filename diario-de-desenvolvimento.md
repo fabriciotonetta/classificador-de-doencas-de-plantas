@@ -22,3 +22,22 @@ para classificação de doenças em plantas com I.A.
 - Configurar o notebook no Colab
 - Fazer análise exploratória das imagens
 - Iniciar o pré-processamento dos dados
+---
+
+## Dia 2 — Coleta e Análise dos Dados
+
+**O que foi feito:**
+- Dataset baixado direto do Kaggle para o servidor do Google Colab
+- Confirmadas 38 categorias de doenças em plantas
+- Total de 70.295 imagens de treino disponíveis
+- Visualização das imagens realizada com sucesso
+- Análise da distribuição das categorias — dados bem balanceados
+
+**Decisões tomadas:**
+- Uso do kagglehub para download direto no servidor, evitando downloads lentos
+- Dataset com distribuição balanceada dispensou técnicas de correção de dados
+
+**Próximos passos:**
+- Pré-processar as imagens para o formato que a I.A. espera
+- Construir o modelo com Transfer Learning usando MobileNetV2
+- Iniciar o treinamento
